@@ -3,19 +3,19 @@
   "type": "postgres",
   "host": "localhost",
   "port": 5432,
-  "username": "",
-  "password": "",
-  "database": "",
+  "username": "postgres",
+  "password": "postgres030513",
+  "database": "bsl",
   "synchronize": false,
   "logging": true,
   "entities": [
-    "src/models/*.ts"
+    "src/entity/*.ts"
   ],
   "subscribers": [
     "src/subscribers/**/*.ts"
   ],
   "cli": {
-    "entitiesDir": "src/models",
+    "entitiesDir": "src/entity",
     "subscribersDir": "src/subscribers"
   }
 }
